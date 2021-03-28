@@ -17,6 +17,6 @@ console.log(items);
 let filledArray = Array.from({ length: 10 }, () => ({ name: 'Milos' }));
 console.log(filledArray);
 
-//Spread operator
+//spread operator
 
 let fillArray = [...Array.from(10)].map(() => ({ age: 30 }));
