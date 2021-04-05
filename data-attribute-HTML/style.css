@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(rgb(202, 112, 112), rgb(100, 185, 211), #444);
+}
+
+div.rockets {
+  position: absolute;
+  background: url('img/r.png');
+  width: 130px;
+  height: 60px;
+  left: 0px;
+  transition: left 0s linear 0s;
+}
+
+div.rockets[data-altitude='100'] {
+  transform: rotate(20deg);
+}
