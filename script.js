@@ -94,6 +94,27 @@ console.log(b);
 // "ABCD"
 console.log(slice);
 
+//get a random item from an array
+var items = [12, 548, 'a', 2, 5478, 'foo', 8852, , 'Doe', 2145, 119];
+
+var randomItem = items[Math.floor(Math.random() * items.length)];
+
+//generate a random array with nums from 0 to max
+var numbersArray = [],
+  max = 100;
+
+for (var i = 1; numbersArray.push(i++) < max; ); // numbers = [1,2,3 ... 100]
+
+//shuffle an array of numbers
+var numbers = [5, 458, 120, -215, 228, 400, 122205, -85411];
+numbers = numbers.sort(function () {
+  return Math.random() - 0.5;
+});
+
+//NUMBERS
+//get a random number in a range
+var x = Math.floor(Math.random() * (max - min + 1)) + min;
+
 //TODO:OBJECTS
 //destructuring
 const myVacation = {
@@ -116,3 +137,11 @@ const { startDate, endDate, citiesVisited, stops } = myVacation;
 const { Roma: roma, Naples: naples } = stops;
 
 console.log(roma, naples);
+
+//MAKE SURE USER CLICKS A BUTTON ONLY ONCE
+// private bool isPressed = false;
+
+// if(Input.GetKeyDown(KeyCode.Space) & & isPressed == false) {
+// isPressed =true ;
+// // do all the stuff
+// }
