@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.section:nth-child(1) {
+  background-color: rosybrown;
+}
+
+.section:nth-child(2) {
+  background-color: rgb(111, 221, 224);
+}
+
+.section:nth-child(3) {
+  background-color: rgb(130, 131, 223);
+}
+
+.inverse {
+  background-color: rgb(17, 17, 17);
+  color: rgb(235, 22, 22);
+}
