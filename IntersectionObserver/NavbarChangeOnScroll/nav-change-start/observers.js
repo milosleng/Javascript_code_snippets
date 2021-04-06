@@ -65,7 +65,6 @@ function preloadImage(img) {
   if (!src) {
     return;
   }
-
   img.src = src;
 }
 const imgOptions = {
