@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Animate on Scroll with AOS</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <h1><span>Animate </span>on Scroll</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+        quasi.
+      </p>
+    </header>
+    <main class="container">
+      <section class="card">
+        <img src="/img/person2.jpg" alt="" />
+        <div>
+          <h3>Animate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+            dolorem officiis nisi quas repellat. Molestias incidunt libero
+            excepturi adipisci, quae tempora earum odit repellendus a nam
+            aperiam commodi veritatis non.
+          </p>
+          <a href="#" class="btn">Buy One</a>
+        </div>
+      </section>
+      <section class="card" data-aos="fade-left">
+        <img src="/img/person3.jpg" alt="" />
+        <div>
+          <h3>Animate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+            dolorem officiis nisi quas repellat. Molestias incidunt libero
+            excepturi adipisci, quae tempora earum odit repellendus a nam
+            aperiam commodi veritatis non.
+          </p>
+          <a href="#" class="btn">Buy One</a>
+        </div>
+      </section>
+      <section class="card" data-aos="fade-right">
+        <img src="/img/person1.jpg" alt="" />
+        <div>
+          <h3>Animate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+            dolorem officiis nisi quas repellat. Molestias incidunt libero
+            excepturi adipisci, quae tempora earum odit repellendus a nam
+            aperiam commodi veritatis non.
+          </p>
+          <a href="#" class="btn">Buy One</a>
+        </div>
+      </section>
+      <section class="card" data-aos="fade-left">
+        <img src="/img/person2.jpg" alt="" />
+        <div>
+          <h3>Animate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+            dolorem officiis nisi quas repellat. Molestias incidunt libero
+            excepturi adipisci, quae tempora earum odit repellendus a nam
+            aperiam commodi veritatis non.
+          </p>
+          <a href="#" class="btn">Buy One</a>
+        </div>
+      </section>
+      <section class="card" data-aos="fade-right">
+        <img src="/img/person4.jpg" alt="" />
+        <div>
+          <h3>Animate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+            dolorem officiis nisi quas repellat. Molestias incidunt libero
+            excepturi adipisci, quae tempora earum odit repellendus a nam
+            aperiam commodi veritatis non.
+          </p>
+          <a href="#" class="btn">Buy One</a>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000,
+      });
+    </script>
+  </body>
+</html>

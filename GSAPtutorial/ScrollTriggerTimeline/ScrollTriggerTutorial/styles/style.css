@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Robot', sans-serif;
+  margin: 0;
+}
+
+.div1,
+.div2 {
+  height: 120vh;
+}
+
+.div1 {
+  background-color: pink;
+}
+
+.div2 {
+  background-color: rgb(95, 82, 81);
+}
+
+.div3 {
+  background-color: greenyellow;
+  height: 1500px;
+  padding-top: 100px;
+}
+
+.div4 {
+  background-color: indigo;
+  height: 4000px;
+  display: flex;
+
+  align-items: center;
+}
+
+.square {
+  width: 150px;
+  height: 20vh;
+  background-color: rgb(63, 46, 224);
+}
+
+.square2 {
+  margin-top: 400px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(211, 108, 40);
+}
+
+.square3 {
+  margin-top: 400px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(57, 138, 204);
+}
+
+.square4 {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(184, 190, 196);
+}
+
+.square5 {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(203, 62, 216);
+}
+
+.red {
+  background-color: red;
+}
